@@ -1,4 +1,9 @@
-.cell {
-  background: red;
-  border: 1px solid green;
+*{
+  outline:1px solid red;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: ;
+}
+body {
+  font-family: ;
 }
