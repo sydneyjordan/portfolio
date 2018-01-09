@@ -1,4 +1,75 @@
-.cell {
-  background: red;
-  border: 1px solid green;
+<<<<<<< HEAD
+/**{
+  outline:1px solid red;
+}*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Amatic SC', cursive;
+}
+h1{
+  font-size: 5em;
+}
+body {
+  font-family: 'Old Standard TT', serif;
+}
+nav {
+  margin-top: 17px;
+  text-align: right;
+}
+nav li {
+  display: inline;
+}
+nav a:link, nav a:visited, .next-button a:link, .next-button a:visited {
+  color: black;
+  text-decoration: none;
+}
+nav a:hover, .next-button a:hover {
+  text-decoration: none;
+  color: rgb(66, 244, 179);
+}
+nav a.current {
+  color: rgb(66, 244, 179);
+}
+ul, li {
+  list-style-type: none;
+  padding: 4px;
+}
+.kai-tile, .dwl-tile{
+  filter: grayscale(100%);
+}
+.kai-tile:hover, .dwl-tile:hover {
+  filter: none;
+}
+.next {
+  text-align: right;
+}
+.marg {
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(66, 244, 179);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header {
+  border-bottom: 2px solid rgb(66, 244, 179);
+}
+footer {
+  border-top: 2px solid rgb(66, 244, 179);
+=======
+*{
+  outline:1px solid red;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: ;
+}
+body {
+  font-family: ;
+>>>>>>> 97a539eeecba8ed7f2ca3cf1171854fa947f9092
 }
